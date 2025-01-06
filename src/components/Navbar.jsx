@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <nav className='flex flex-col lg:flex-row py-3 justify-between mx-6'>
+        <nav className='flex flex-col lg:flex-row py-3 justify-between mx-6 mb-10'>
             <div>
                 <h3 className='text-xl font-bold'>
                     {new Date().toUTCString().slice(0, 16)}

@@ -4,7 +4,7 @@ const CategoryMenu = () => {
     return(
         <div className="mx-6">
             <h3>Find the best food</h3>
-            <div className="my-5 flex gap-3 overflow-x-scroll scroll-smoth">
+            <div className="my-5 flex gap-3 overflow-auto lg:overflow-hidden scroll-smoth">
                 <button className="px-3 py-2 bg-lime-600 rounded-lg text-white hover:bg-lime-900 font-bold">
                     All
                 </button>
